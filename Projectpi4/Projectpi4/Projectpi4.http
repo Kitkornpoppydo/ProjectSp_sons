@@ -1,0 +1,6 @@
+@Projectpi4_HostAddress = http://localhost:5080
+
+GET {{Projectpi4_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
