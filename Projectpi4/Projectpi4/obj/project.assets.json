@@ -715,11 +715,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kitti\\source\\repos\\Projectpi4\\Projectpi4\\Projectpi4.csproj",
+      "projectUniqueName": "C:\\Users\\kitti\\Desktop\\Projectpi4-main\\Projectpi4\\Projectpi4\\Projectpi4.csproj",
       "projectName": "Projectpi4",
-      "projectPath": "C:\\Users\\kitti\\source\\repos\\Projectpi4\\Projectpi4\\Projectpi4.csproj",
+      "projectPath": "C:\\Users\\kitti\\Desktop\\Projectpi4-main\\Projectpi4\\Projectpi4\\Projectpi4.csproj",
       "packagesPath": "C:\\Users\\kitti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kitti\\source\\repos\\Projectpi4\\Projectpi4\\obj\\",
+      "outputPath": "C:\\Users\\kitti\\Desktop\\Projectpi4-main\\Projectpi4\\Projectpi4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

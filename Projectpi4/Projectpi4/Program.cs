@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddSwaggerGen();
+builder.Services.AddEndpointsApiExplorer();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddScoped<IDbConnection>(sp => new Npgsql.NpgsqlConnection(connectionString));
@@ -21,7 +22,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: MyAllowSpecificOrigins,
                       policy =>
                       {
-                          policy.WithOrigins("http://localhost:5173") // ãÊè URL frontend ´éÇÂ
+                          policy.WithOrigins("http://localhost:5173") // ï¿½ï¿½ï¿½ URL frontend ï¿½ï¿½ï¿½ï¿½
                                 .AllowAnyHeader()
                                 .AllowAnyMethod();
                       });

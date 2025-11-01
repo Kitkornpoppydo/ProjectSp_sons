@@ -28,7 +28,7 @@ public class EstimateOrdersController : ControllerBase
         cmd.Parameters.AddWithValue("name", request.CustomerName);
         cmd.Parameters.AddWithValue("phone", request.CustomerPhone);
         cmd.Parameters.AddWithValue("email", (object?)request.CustomerEmail ?? DBNull.Value);
-        cmd.Parameters.AddWithValue("address", (object?)request.CustomerAddress ?? DBNull.Value);
+        cmd.Parameters.AddWithValue("address2", (object?)request.CustomerAddress ?? DBNull.Value);
         int orderId = (int)cmd.ExecuteScalar();
 
         string productQuery = @"
